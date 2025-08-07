@@ -10,6 +10,7 @@ import (
  
 
 func main(){
+	fmt.Println("Hello")
 }
 
 func getName(r io.Reader, w io.Writer) (string, error) {
